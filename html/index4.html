@@ -1,11 +1,10 @@
-
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <meta name="viewport" content="width=device-width">
   <title>BubblyBelle</title>
-  <link rel="stylesheet" href="//cdn.bubblybelle.com/assets/q/css/common3.css" />
+  <link rel="stylesheet" href="//cdn.bubblybelle.com/assets/q/css/common3.css"/>
   <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700" rel="stylesheet">
 </head>
 <body>
@@ -15,27 +14,34 @@
 </script>
 
 
-
-
 <script>
   var date = new Date();
-  date.setTime(date.getTime() + (7*24*60*60*1000));
+  date.setTime(date.getTime() + (7 * 24 * 60 * 60 * 1000));
   expires = "; expires=" + date.toUTCString();
   document.cookie = 'fbcmp' + "=" + '1711397459085252' + ';' + expires + "; path=/";
 </script>
 
 <!-- Facebook Pixel Code -->
 <script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-    n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t,s)}(window, document,'script',
+  !function (f, b, e, v, n, t, s) {
+    if (f.fbq) return;
+    n = f.fbq = function () {
+      n.callMethod ?
+        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+    };
+    if (!f._fbq) f._fbq = n;
+    n.push = n;
+    n.loaded = !0;
+    n.version = '2.0';
+    n.queue = [];
+    t = b.createElement(e);
+    t.async = !0;
+    t.src = v;
+    s = b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t, s)
+  }(window, document, 'script',
     'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '1711397459085252', {
-  });
+  fbq('init', '1711397459085252', {});
   fbq('track', 'PageView');
 </script>
 <noscript><img height="1" width="1" style="display:none"
@@ -48,24 +54,37 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-47105712-40"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+
   gtag('js', new Date());
 
   gtag('config', 'UA-47105712-40'); // analytics initialization
   gtag('config', 'AW-709535125'); // adwords initialization via gtag - AB - added 9.16.19
 
 
-
 </script>
 
 <!-- Pinterest Tag -->
 <script>
-  !function(e){if(!window.pintrk){window.pintrk = function () {
-    window.pintrk.queue.push(Array.prototype.slice.call(arguments))};var
-    n=window.pintrk;n.queue=[],n.version="3.0";var
-    t=document.createElement("script");t.async=!0,t.src=e;var
-    r=document.getElementsByTagName("script")[0];
-    r.parentNode.insertBefore(t,r)}}("https://s.pinimg.com/ct/core.js");
+  !function (e) {
+    if (!window.pintrk) {
+      window.pintrk = function () {
+        window.pintrk.queue.push(Array.prototype.slice.call(arguments))
+      };
+      var
+        n = window.pintrk;
+      n.queue = [], n.version = "3.0";
+      var
+        t = document.createElement("script");
+      t.async = !0, t.src = e;
+      var
+        r = document.getElementsByTagName("script")[0];
+      r.parentNode.insertBefore(t, r)
+    }
+  }("https://s.pinimg.com/ct/core.js");
   //2614110333809
   // 2613589011768 - other account disabled 1.3.20
   pintrk('load', '2614110333809', {em: ''});
@@ -73,23 +92,40 @@
 </script>
 <noscript>
   <img height="1" width="1" style="display:none;" alt=""
-       src="https://ct.pinterest.com/v3/?event=init&tid=2614110333809&pd[em]=d41d8cd98f00b204e9800998ecf8427e&noscript=1" />
+       src="https://ct.pinterest.com/v3/?event=init&tid=2614110333809&pd[em]=d41d8cd98f00b204e9800998ecf8427e&noscript=1"/>
 </noscript>
 <!-- end Pinterest Tag -->
-
 
 
 <!-- outbrain -->
 <script data-obct type="text/javascript">
   /** DO NOT MODIFY THIS CODE**/
-  !function(_window, _document) {
-    var OB_ADV_ID='00f9e5e0d969af8ed98a1cc949fb177534';
-    if (_window.obApi) {var toArray = function(object) {return Object.prototype.toString.call(object) === '[object Array]' ? object : [object];};_window.obApi.marketerId = toArray(_window.obApi.marketerId).concat(toArray(OB_ADV_ID));return;}
-    var api = _window.obApi = function() {api.dispatch ? api.dispatch.apply(api, arguments) : api.queue.push(arguments);};api.version = '1.1';api.loaded = true;api.marketerId = OB_ADV_ID;api.queue = [];var tag = _document.createElement('script');tag.async = true;tag.src = '//amplify.outbrain.com/cp/obtp.js';tag.type = 'text/javascript';var script = _document.getElementsByTagName('script')[0];script.parentNode.insertBefore(tag, script);}(window, document);
+  !function (_window, _document) {
+    var OB_ADV_ID = '00f9e5e0d969af8ed98a1cc949fb177534';
+    if (_window.obApi) {
+      var toArray = function (object) {
+        return Object.prototype.toString.call(object) === '[object Array]' ? object : [object];
+      };
+      _window.obApi.marketerId = toArray(_window.obApi.marketerId).concat(toArray(OB_ADV_ID));
+      return;
+    }
+    var api = _window.obApi = function () {
+      api.dispatch ? api.dispatch.apply(api, arguments) : api.queue.push(arguments);
+    };
+    api.version = '1.1';
+    api.loaded = true;
+    api.marketerId = OB_ADV_ID;
+    api.queue = [];
+    var tag = _document.createElement('script');
+    tag.async = true;
+    tag.src = '//amplify.outbrain.com/cp/obtp.js';
+    tag.type = 'text/javascript';
+    var script = _document.getElementsByTagName('script')[0];
+    script.parentNode.insertBefore(tag, script);
+  }(window, document);
   obApi('track', 'PAGE_VIEW');
 </script>
 <!-- end outbrain -->
-
 
 
 <!-- Taboola Pixel Code -->
@@ -98,7 +134,10 @@
   window._tfa.push({notify: 'event', name: 'page_view', id: 1225269});
   !function (t, f, a, x) {
     if (!document.getElementById(x)) {
-      t.async = 1;t.src = a;t.id=x;f.parentNode.insertBefore(t, f);
+      t.async = 1;
+      t.src = a;
+      t.id = x;
+      f.parentNode.insertBefore(t, f);
     }
   }(document.createElement('script'),
     document.getElementsByTagName('script')[0],
@@ -112,14 +151,21 @@
 <!-- End of Taboola Pixel Code -->
 
 
-
 <!-- Snap Pixel Code -->
 <script type='text/javascript'>
-  (function(e,t,n){if(e.snaptr)return;var a=e.snaptr=function()
-  {a.handleRequest?a.handleRequest.apply(a,arguments):a.queue.push(arguments)};
-    a.queue=[];var s='script';r=t.createElement(s);r.async=!0;
-    r.src=n;var u=t.getElementsByTagName(s)[0];
-    u.parentNode.insertBefore(r,u);})(window,document,
+  (function (e, t, n) {
+    if (e.snaptr) return;
+    var a = e.snaptr = function () {
+      a.handleRequest ? a.handleRequest.apply(a, arguments) : a.queue.push(arguments)
+    };
+    a.queue = [];
+    var s = 'script';
+    r = t.createElement(s);
+    r.async = !0;
+    r.src = n;
+    var u = t.getElementsByTagName(s)[0];
+    u.parentNode.insertBefore(r, u);
+  })(window, document,
     'https://sc-static.net/scevent.min.js');
 
   snaptr('init', '46cdd58d-67b4-4607-ac7f-64d8c5009ae6'
@@ -130,12 +176,15 @@
 <!-- End Snap Pixel Code -->
 
 
-
 <!-- Pubdream Analytics -->
 <script async src="//a.pubdream.com/analytics2.js"></script>
 <script>
   window.pubdream = window.pubdream || [];
-  function pdpush(){window.pubdream.push(arguments);}
+
+  function pdpush() {
+    window.pubdream.push(arguments);
+  }
+
   pdpush('pageview');
 </script>
 
@@ -150,7 +199,7 @@
     // load into cookie that will be read by the shipping page.
     // if firstname not found, the rest is ignored
     dict.firstname = params.get('firstname');
-    if(dict.firstname) {
+    if (dict.firstname) {
       dict.lastname = params.get('lastname');
       dict.email = params.get('email');
       dict.phone = params.get('phone');
@@ -160,19 +209,21 @@
       dict.zip = params.get('zip');
 
       var date = new Date();
-      date.setTime(date.getTime() + (7*24*60*60*1000));
+      date.setTime(date.getTime() + (7 * 24 * 60 * 60 * 1000));
       expires = "; expires=" + date.toUTCString();
       document.cookie = 'coreg' + "=" + btoa(JSON.stringify(dict)) + ';' + expires + "; path=/";
     }
 
-  } catch(e) {
+  } catch (e) {
   }
 </script>
 
 <script>
   // ticktock
-  (function() {
-    var ta = document.createElement('script'); ta.type = 'text/javascript'; ta.async = true;
+  (function () {
+    var ta = document.createElement('script');
+    ta.type = 'text/javascript';
+    ta.async = true;
     ta.src = document.location.protocol + '//' + 'static.bytedance.com/pixel/sdk.js?sdkid=BOH0PVLEUOQ9QM0COE30';
     var s = document.getElementsByTagName('script')[0];
     s.parentNode.insertBefore(ta, s);
@@ -182,11 +233,24 @@
 <!-- DO NOT MODIFY -->
 <!-- Quora Pixel Code (JS Helper) -->
 <script>
-  !function(q,e,v,n,t,s){if(q.qp) return; n=q.qp=function(){n.qp?n.qp.apply(n,arguments):n.queue.push(arguments);}; n.queue=[];t=document.createElement(e);t.async=!0;t.src=v; s=document.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t,s);}(window, 'script', 'https://a.quora.com/qevents.js');
+  !function (q, e, v, n, t, s) {
+    if (q.qp) return;
+    n = q.qp = function () {
+      n.qp ? n.qp.apply(n, arguments) : n.queue.push(arguments);
+    };
+    n.queue = [];
+    t = document.createElement(e);
+    t.async = !0;
+    t.src = v;
+    s = document.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t, s);
+  }(window, 'script', 'https://a.quora.com/qevents.js');
   qp('init', '05c70b24a10d4f24a51553980545d868');
   qp('track', 'ViewContent');
 </script>
-<noscript><img height="1" width="1" style="display:none" src="https://q.quora.com/_/ad/05c70b24a10d4f24a51553980545d868/pixel?tag=ViewContent&noscript=1"/></noscript>
+<noscript><img height="1" width="1" style="display:none"
+               src="https://q.quora.com/_/ad/05c70b24a10d4f24a51553980545d868/pixel?tag=ViewContent&noscript=1"/>
+</noscript>
 <!-- End of Quora Pixel Code -->
 
 <!-- mikey likes it -->
@@ -230,235 +294,280 @@
 </div> -->
 
 <s class="hea">
-  <sc class = "desktop"><img src="//cdn.bubblybelle.com/assets/q/images/new-logo.png"></sc>
-  <sc class = "mobile"><img src="//cdn.bubblybelle.com/assets/q/images/new-logo.png"></sc></s>
+  <sc class="desktop"><img src="logo.jpg"></sc>
+  <sc class="mobile"><img src="logo.jpg"></sc>
 
-<div class="black-friday-banner">
-  <!-- <img src="skin/christmas_banner.jpg"> -->
-</div>
+  <div class="black-friday-banner">
+    <!-- <img src="skin/christmas_banner.jpg"> -->
+  </div>
 
-<s class="con">
-  <sc>
-    <h1>Your Bath <span>Will Never Be The Same</span> </h1>
-    <p>See what others are saying about our ring bath bombs!</b></p>
-    <!-- <img src="images/bomb3.jpg"> -->
-    <div class="review-section">
-      <div class="container">
-        <div class="reviews-star-top">
-          <h1><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 502 Reviews</h1>
-          <p>5 Questions / 5 Answers</p>
-        </div>
-        <div class="reviews-bottom">
-          <div class="rev-row">
-            <div class="left-star"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> (502)</div>
-            <div class="bar"><span class="meter" style="width:96%;"></span></div>
+  <s class="con">
+    <sc>
+      <h1>Your Bath <span>Will Never Be The Same</span></h1>
+      <p>See what others are saying about our ring bath bombs!</b></p>
+      <!-- <img src="images/bomb3.jpg"> -->
+      <div class="review-section">
+        <div class="container">
+          <div class="reviews-star-top">
+            <h1><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+              class="fa fa-star"></i> 502 Reviews</h1>
+            <p>5 Questions / 5 Answers</p>
           </div>
-          <div class="rev-row">
-            <div class="left-star"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star gray-start"></i> (67)</div>
-            <div class="bar"><span class="meter" style="width:13%;"></span></div>
+          <div class="reviews-bottom">
+            <div class="rev-row">
+              <div class="left-star"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                class="fa fa-star"></i><i class="fa fa-star"></i> (502)
+              </div>
+              <div class="bar"><span class="meter" style="width:96%;"></span></div>
+            </div>
+            <div class="rev-row">
+              <div class="left-star"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                class="fa fa-star"></i><i class="fa fa-star gray-start"></i> (67)
+              </div>
+              <div class="bar"><span class="meter" style="width:13%;"></span></div>
+            </div>
+            <div class="rev-row">
+              <div class="left-star"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                class="fa fa-star gray-start"></i><i class="fa fa-star gray-start"></i> (0)
+              </div>
+              <div class="bar"><span class="meter"></span></div>
+            </div>
+            <div class="rev-row">
+              <div class="left-star"><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                class="fa fa-star gray-start"></i><i class="fa fa-star gray-start"></i><i
+                class="fa fa-star gray-start"></i> (0)
+              </div>
+              <div class="bar"><span class="meter"></span></div>
+            </div>
+            <div class="rev-row">
+              <div class="left-star"><i class="fa fa-star"></i><i class="fa fa-star gray-start"></i><i
+                class="fa fa-star gray-start"></i><i class="fa fa-star gray-start"></i><i
+                class="fa fa-star gray-start"></i> (0)
+              </div>
+              <div class="bar"><span class="meter"></span></div>
+            </div>
           </div>
-          <div class="rev-row">
-            <div class="left-star"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star gray-start"></i><i class="fa fa-star gray-start"></i> (0)</div>
-            <div class="bar"><span class="meter"></span></div>
-          </div>
-          <div class="rev-row">
-            <div class="left-star"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star gray-start"></i><i class="fa fa-star gray-start"></i><i class="fa fa-star gray-start"></i> (0)</div>
-            <div class="bar"><span class="meter"></span></div>
-          </div>
-          <div class="rev-row">
-            <div class="left-star"><i class="fa fa-star"></i><i class="fa fa-star gray-start"></i><i class="fa fa-star gray-start"></i><i class="fa fa-star gray-start"></i><i class="fa fa-star gray-start"></i> (0)</div>
-            <div class="bar"><span class="meter"></span></div>
-          </div>
-        </div>
 
-        <div class="review-content">
-          <ul class="tablist">
-            <li><a href="javascript:void(0)" class="active-tab" id="revshow">Reviews(502)</a></li>
-            <li><a href="javascript:void(0)" id="qshow">Questions(5)</a></li>
-          </ul>
-          <div class="reviw-blk" id="userReview">
-            <div class="review-row">
-              <div class="rev-thumb">K</div>
-              <p class="buyername"><span>‎KYNDALL O.</span> Verified Buyer</p>
-              <p class="buyer-star"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
-              <h3 class="rev-title">This ring is amazing...</h3>
-              <p class="rev-desc">I’ve been wanting to try a ring in bath bomb company for a long time. Really happy with my bonus ring from Bubbly Belle! It’s just my style. Can’t wait to see what my bath bombs have in store 😊</p>
-              <div class="date">12/18/18</div>
-            </div>
-            <div class="review-row">
-              <div class="rev-thumb">S</div>
-              <p class="buyername"><span>‎STEPHANIE D</span> Verified Buyer</p>
-              <p class="buyer-star"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
-              <h3 class="rev-title">LOVE! LOVE! LOVE!</h3>
-              <p class="rev-desc">I can't get enough of these amazing bath bombs. got an amazing ring. the smell is amazing.</p>
-              <div class="date">12/15/18</div>
-            </div>
-            <div class="review-row">
-              <div class="rev-thumb">J</div>
-              <p class="buyername"><span>JENNIFER M.</span> Verified Buyer</p>
-              <p class="buyer-star"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
-              <h3 class="rev-title">These bath bombs are INCREDIBLE...</h3>
-              <p class="rev-desc">Oh my God!! look at this gorgeous ring!! Not to mention the massage bomb was so relaxing and I cant believe how AMAZING they smell. This has been the BEST find so far!!!</p>
-              <div class="date">12/15/18</div>
-            </div>
-            <div class="rev-slider" style="float:left; width:100%; position:relative; overflow:hidden; height:0;">
+          <div class="review-content">
+            <ul class="tablist">
+              <li><a href="javascript:void(0)" class="active-tab" id="revshow">Reviews(502)</a></li>
+              <li><a href="javascript:void(0)" id="qshow">Questions(5)</a></li>
+            </ul>
+            <div class="reviw-blk" id="userReview">
               <div class="review-row">
-                <div class="rev-thumb">P</div>
-                <p class="buyername"><span>PAMELA E.</span> Verified Buyer</p>
-                <p class="buyer-star"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
-                <h3 class="rev-title">I love Bubbly Belle bath bombs.</h3>
-                <p class="rev-desc">I loved it so much I had to share this with everyone so if you want to ring you know where to come and get it and always tell them your ring size and you will receive it so enjoy and soak in the most wonderful fragrance if they have in the bubble belle.
+                <div class="rev-thumb">K</div>
+                <p class="buyername"><span>‎KYNDALL O.</span> Verified Buyer</p>
+                <p class="buyer-star"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                  class="fa fa-star"></i><i class="fa fa-star"></i></p>
+                <h3 class="rev-title">This ring is amazing...</h3>
+                <p class="rev-desc">I’ve been wanting to try a ring in bath bomb company for a long time. Really happy
+                  with my bonus ring from Bubbly Belle! It’s just my style. Can’t wait to see what my bath bombs have in
+                  store 😊</p>
+                <div class="date">12/18/18</div>
+              </div>
+              <div class="review-row">
+                <div class="rev-thumb">S</div>
+                <p class="buyername"><span>‎STEPHANIE D</span> Verified Buyer</p>
+                <p class="buyer-star"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                  class="fa fa-star"></i><i class="fa fa-star"></i></p>
+                <h3 class="rev-title">LOVE! LOVE! LOVE!</h3>
+                <p class="rev-desc">I can't get enough of these amazing bath bombs. got an amazing ring. the smell is
+                  amazing.</p>
+                <div class="date">12/15/18</div>
+              </div>
+              <div class="review-row">
+                <div class="rev-thumb">J</div>
+                <p class="buyername"><span>JENNIFER M.</span> Verified Buyer</p>
+                <p class="buyer-star"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                  class="fa fa-star"></i><i class="fa fa-star"></i></p>
+                <h3 class="rev-title">These bath bombs are INCREDIBLE...</h3>
+                <p class="rev-desc">Oh my God!! look at this gorgeous ring!! Not to mention the massage bomb was so
+                  relaxing and I cant believe how AMAZING they smell. This has been the BEST find so far!!!</p>
+                <div class="date">12/15/18</div>
+              </div>
+              <div class="rev-slider" style="float:left; width:100%; position:relative; overflow:hidden; height:0;">
+                <div class="review-row">
+                  <div class="rev-thumb">P</div>
+                  <p class="buyername"><span>PAMELA E.</span> Verified Buyer</p>
+                  <p class="buyer-star"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                    class="fa fa-star"></i><i class="fa fa-star"></i></p>
+                  <h3 class="rev-title">I love Bubbly Belle bath bombs.</h3>
+                  <p class="rev-desc">I loved it so much I had to share this with everyone so if you want to ring you
+                    know where to come and get it and always tell them your ring size and you will receive it so enjoy
+                    and soak in the most wonderful fragrance if they have in the bubble belle.
 
-                </p>
-                <div class="date">12/12/18</div>
+                  </p>
+                  <div class="date">12/12/18</div>
+                </div>
+                <div class="review-row">
+                  <div class="rev-thumb">D</div>
+                  <p class="buyername"><span>DEBRA B.</span> Verified Buyer</p>
+                  <p class="buyer-star"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                    class="fa fa-star"></i><i class="fa fa-star"></i></p>
+                  <h3 class="rev-title">Fast shipping!</h3>
+                  <p class="rev-desc">Wow!! Didnt even take a week for my free ring and 2 Bubbly Belles to get here.
+                    Haven't used the products yets, but.. I'm ☺️ happy so far!! I'll show the other rings when I use
+                    them...😃💜💙</p>
+                  <div class="date">12/011/18</div>
+                </div>
+                <div class="review-row">
+                  <div class="rev-thumb">C</div>
+                  <p class="buyername"><span>CINDY J.</span> Verified Buyer</p>
+                  <p class="buyer-star"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                    class="fa fa-star"></i><i class="fa fa-star"></i></p>
+                  <h3 class="rev-title">BB Ring Addict</h3>
+                  <p class="rev-desc">Enjoyed my bath bombs and the rings are so pretty! Honestly, I get more excited
+                    for the ring than the bath bomb! The mystery is so exciting!</p>
+                  <div class="date">12/10/18</div>
+                </div>
+                <div class="review-row">
+                  <div class="rev-thumb">N</div>
+                  <p class="buyername"><span>NATALIA C.</span> Verified Buyer</p>
+                  <p class="buyer-star"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                    class="fa fa-star"></i><i class="fa fa-star"></i></p>
+                  <h3 class="rev-title">My Mail Smells Amazing!.</h3>
+                  <p class="rev-desc">omg i love my Rings from the Bubbly Belle BAth Bomb ,It smells so good, and I can
+                    smell it all way thru the shipping box,Thank you so much!</p>
+                  <div class="date">12/9/18</div>
+                </div>
+                <div class="review-row">
+                  <div class="rev-thumb">M</div>
+                  <p class="buyername"><span>MICHELLE G.</span> Verified Buyer</p>
+                  <p class="buyer-star"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                    class="fa fa-star"></i><i class="fa fa-star"></i></p>
+                  <h3 class="rev-title">These bath bombs smell amazing.</h3>
+                  <p class="rev-desc">I received my order and I have to say that the bath bombs that I ordered smell
+                    absolutely amazing! I couldn't wait to see what rings I got so I crushed them individually and put
+                    them in separate containers...then I figured that they smelled so good that I'll put some of the
+                    "powder" in mesh bags and then in material and make my own scented sachets for my underwear
+                    drawers~! The rings I got were beautiful!I can't wait to use the bombs for what they were intended
+                    for...the bathtub. They sure do smell wonderful!</p>
+                  <div class="date">04/21/18</div>
+                </div>
+              </div>
+              <a href="javascript:void(0)" class="rev-read-more">READ MORE...</a>
+            </div>
+
+            <div class="answr-blk" id="cAnsw" style="display:none;">
+              <div class="review-row">
+                <div class="rev-thumb">T</div>
+                <p class="buyername"><span>TANYA P.</span> Verified Buyer</p>
+                <p class="rev-desc">Q: WHERE IS BUBBLY BELLE MADE?</p>
+                <div class="c-answer">
+                  <div class="rev-thumb">O</div>
+                  <p class="buyername"><span>BUBBLY BELLE'S REPRESENTATIVE</span></p>
+                  <p class="rev-desc">A: Bubbly Belle Ring Bath Bombs are formulated and packaged in the USA.</p>
+                </div>
+                <div class="date">11/08/18</div>
               </div>
               <div class="review-row">
                 <div class="rev-thumb">D</div>
-                <p class="buyername"><span>DEBRA B.</span> Verified Buyer</p>
-                <p class="buyer-star"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
-                <h3 class="rev-title">Fast shipping!</h3>
-                <p class="rev-desc">Wow!! Didnt even take a week for my free ring and 2 Bubbly Belles to get here. Haven't used the products yets, but.. I'm ☺️ happy so far!! I'll show the other rings when I use them...😃💜💙</p>
-                <div class="date">12/011/18</div>
-              </div>
-              <div class="review-row">
-                <div class="rev-thumb">C</div>
-                <p class="buyername"><span>CINDY J.</span> Verified Buyer</p>
-                <p class="buyer-star"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
-                <h3 class="rev-title">BB Ring Addict</h3>
-                <p class="rev-desc">Enjoyed my bath bombs and the rings are so pretty! Honestly, I get more excited for the ring than the bath bomb! The mystery is so exciting!</p>
-                <div class="date">12/10/18</div>
-              </div>
-              <div class="review-row">
-                <div class="rev-thumb">N</div>
-                <p class="buyername"><span>NATALIA C.</span> Verified Buyer</p>
-                <p class="buyer-star"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
-                <h3 class="rev-title">My Mail Smells Amazing!.</h3>
-                <p class="rev-desc">omg i love my Rings from the Bubbly Belle BAth Bomb ,It smells so good, and I can smell it all way thru the shipping box,Thank you so much!</p>
-                <div class="date">12/9/18</div>
-              </div>
-              <div class="review-row">
-                <div class="rev-thumb">M</div>
-                <p class="buyername"><span>MICHELLE G.</span> Verified Buyer</p>
-                <p class="buyer-star"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
-                <h3 class="rev-title">These bath bombs smell amazing.</h3>
-                <p class="rev-desc">I received my order and I have to say that the bath bombs that I ordered smell absolutely amazing! I couldn't wait to see what rings I got so I crushed them individually and put them in separate containers...then I figured that they smelled so good that I'll put some of the "powder" in mesh bags and then in material and make my own scented sachets for my underwear drawers~! The rings I got were beautiful!I can't wait to use the bombs for what they were intended for...the bathtub. They sure do smell wonderful!</p>
-                <div class="date">04/21/18</div>
-              </div>
-            </div>
-            <a href="javascript:void(0)" class="rev-read-more">READ MORE...</a>
-          </div>
-
-          <div class="answr-blk" id="cAnsw" style="display:none;">
-            <div class="review-row">
-              <div class="rev-thumb">T</div>
-              <p class="buyername"><span>TANYA P.</span> Verified Buyer</p>
-              <p class="rev-desc">Q: WHERE IS BUBBLY BELLE MADE?</p>
-              <div class="c-answer">
-                <div class="rev-thumb">O</div>
-                <p class="buyername"><span>BUBBLY BELLE'S REPRESENTATIVE</span></p>
-                <p class="rev-desc">A: Bubbly Belle Ring Bath Bombs are formulated and packaged in the USA.</p>
-              </div>
-              <div class="date">11/08/18</div>
-            </div>
-            <div class="review-row">
-              <div class="rev-thumb">D</div>
-              <p class="buyername"><span>DEEANA S.</span> Verified Buyer</p>
-              <p class="rev-desc">Q: WHAT IS THE SIZE OF EACH BATH BOMB?</p>
-              <div class="c-answer">
-                <div class="rev-thumb">O</div>
-                <p class="buyername"><span>BUBBLY BELLE'S REPRESENTATIVE</span></p>
-                <p class="rev-desc">A: Each Bubbly Belle ring bath bath bomb weighs approximately 6oz.</p>
-              </div>
-              <div class="date">11/07/18</div>
-            </div>
-            <div class="review-row">
-              <div class="rev-thumb">R</div>
-              <p class="buyername"><span>ROXANNE J.</span> Verified Buyer</p>
-              <p class="rev-desc">Q: WHAT INGREDIENTS ARE IN YOUR BATH BOMBS?</p>
-              <div class="c-answer">
-                <div class="rev-thumb">O</div>
-                <p class="buyername"><span>BUBBLY BELLE'S REPRESENTATIVE</span></p>
-                <p class="rev-desc">A: <br>
-                  <strong>Essential Oils:</strong> The essential oils found in these bath bombs are concentrated plant essences that have the power to influence our body and mind.
-                  <br><br> <strong>Epsom Salts:</strong> Epsom salts will draw toxins out of your skin.
-                  <br><br> <strong>Baking Soda:</strong> Baking soda will not only alkalize but will also draw out toxins.
-                  <br><br> Coconut Oil: Coconut oil is anti-viral, containing both lauric acid and capric acide. It can also help to sooth and moisturize the skin.
-                  <br><br> <strong>Citric Acid:</strong> Citric acid is found in fruits and vegetables, and will give your bath bomb its fizzy quality.
-                  <br><br> <strong>Corn Starch:</strong> Corn starch is a natural source of energy and prevents low blood sugar.
-                  <br><br> <strong>Fragrances:</strong> Aroma-therapy to put you in just the mood.
-
-                </p>
-              </div>
-              <div class="date">11/02/18</div>
-            </div>
-            <div class="review-row">
-              <div class="rev-thumb">A</div>
-              <p class="buyername"><span>AMANDA P.</span> Verified Buyer</p>
-              <p class="rev-desc">Q: HOW CAN I FIND THE VALUE OF MY RING?</p>
-              <div class="c-answer">
-                <div class="rev-thumb">O</div>
-                <p class="buyername"><span>BUBBLY BELLE'S REPRESENTATIVE</span></p>
-                <p class="rev-desc">A: You can enter your unique code found with your ring <a href="https://reveal.bubblybelle.com">here</a>. Simply enter the email address you placed your order with and the code you received to reveal. </p>
-              </div>
-              <div class="date">10/23/18</div>
-            </div>
-            <!-- <div class="review-row" style="border:none;">
-                <div class="rev-thumb">N</div>
-                <p class="buyername"><span>NATALIA L.</span> Verified Buyer</p>
-                <p class="rev-desc">Q: IS ORGANICA SAFE FOR USE ON CHILDREN?</p>
+                <p class="buyername"><span>DEEANA S.</span> Verified Buyer</p>
+                <p class="rev-desc">Q: WHAT IS THE SIZE OF EACH BATH BOMB?</p>
                 <div class="c-answer">
-                    <div class="rev-thumb">O</div>
-                    <p class="buyername"><span>ORGANICA'S REPRESENTATIVE</span></p>
-                    <p class="rev-desc">A: Due to the presence and concentration of essential oils in our lotion, we do not recommend use on infants under the age of 6.</p>
+                  <div class="rev-thumb">O</div>
+                  <p class="buyername"><span>BUBBLY BELLE'S REPRESENTATIVE</span></p>
+                  <p class="rev-desc">A: Each Bubbly Belle ring bath bath bomb weighs approximately 6oz.</p>
                 </div>
-                <div class="date">10/10/18</div>
-            </div> -->
+                <div class="date">11/07/18</div>
+              </div>
+              <div class="review-row">
+                <div class="rev-thumb">R</div>
+                <p class="buyername"><span>ROXANNE J.</span> Verified Buyer</p>
+                <p class="rev-desc">Q: WHAT INGREDIENTS ARE IN YOUR BATH BOMBS?</p>
+                <div class="c-answer">
+                  <div class="rev-thumb">O</div>
+                  <p class="buyername"><span>BUBBLY BELLE'S REPRESENTATIVE</span></p>
+                  <p class="rev-desc">A: <br>
+                    <strong>Essential Oils:</strong> The essential oils found in these bath bombs are concentrated plant
+                    essences that have the power to influence our body and mind.
+                    <br><br> <strong>Epsom Salts:</strong> Epsom salts will draw toxins out of your skin.
+                    <br><br> <strong>Baking Soda:</strong> Baking soda will not only alkalize but will also draw out
+                    toxins.
+                    <br><br> Coconut Oil: Coconut oil is anti-viral, containing both lauric acid and capric acide. It
+                    can also help to sooth and moisturize the skin.
+                    <br><br> <strong>Citric Acid:</strong> Citric acid is found in fruits and vegetables, and will give
+                    your bath bomb its fizzy quality.
+                    <br><br> <strong>Corn Starch:</strong> Corn starch is a natural source of energy and prevents low
+                    blood sugar.
+                    <br><br> <strong>Fragrances:</strong> Aroma-therapy to put you in just the mood.
+
+                  </p>
+                </div>
+                <div class="date">11/02/18</div>
+              </div>
+              <div class="review-row">
+                <div class="rev-thumb">A</div>
+                <p class="buyername"><span>AMANDA P.</span> Verified Buyer</p>
+                <p class="rev-desc">Q: HOW CAN I FIND THE VALUE OF MY RING?</p>
+                <div class="c-answer">
+                  <div class="rev-thumb">O</div>
+                  <p class="buyername"><span>BUBBLY BELLE'S REPRESENTATIVE</span></p>
+                  <p class="rev-desc">A: You can enter your unique code found with your ring <a
+                    href="https://reveal.bubblybelle.com">here</a>. Simply enter the email address you placed your order
+                    with and the code you received to reveal. </p>
+                </div>
+                <div class="date">10/23/18</div>
+              </div>
+              <!-- <div class="review-row" style="border:none;">
+                  <div class="rev-thumb">N</div>
+                  <p class="buyername"><span>NATALIA L.</span> Verified Buyer</p>
+                  <p class="rev-desc">Q: IS ORGANICA SAFE FOR USE ON CHILDREN?</p>
+                  <div class="c-answer">
+                      <div class="rev-thumb">O</div>
+                      <p class="buyername"><span>ORGANICA'S REPRESENTATIVE</span></p>
+                      <p class="rev-desc">A: Due to the presence and concentration of essential oils in our lotion, we do not recommend use on infants under the age of 6.</p>
+                  </div>
+                  <div class="date">10/10/18</div>
+              </div> -->
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <a href="index5.html" class="btn">Next <i class="fa fa-chevron-right go"></i></a>
-  </sc>
-</s>
-<s>
-  <sc>
-    <div class="pbar"><span style="width:50%"></span></div>
-  </sc>
-</s>
+      <a href="index5.html" class="btn">Next <i class="fa fa-chevron-right go"></i></a>
+    </sc>
+  </s>
+  <s>
+    <sc>
+      <div class="pbar"><span style="width:50%"></span></div>
+    </sc>
+  </s>
 
-<s class="counter"><sc><p>40%</p></sc></s>
-<s class="foo">
-  <ul class = "footer-link" >
-    <li><a href="https://bubblybelle.com">HOME</a></li>
-    <li><a href="https://bubblybelle.com/pages/privacy-policy">PRIVACY</a></li>
-    <li><a href="https://bubblybelle.com/pages/terms-and-conditions">TERMS</a></li>
-    <li><a href="https://bubblybelle.com/pages/frequently-asked-questions">FAQ</a></li>
-  </ul>
+  <s class="counter">
+    <sc><p>40%</p></sc>
+  </s>
+  <s class="foo">
+    <ul class="footer-link">
+      <li><a href="https://bubblybelle.com">HOME</a></li>
+      <li><a href="https://bubblybelle.com/pages/privacy-policy">PRIVACY</a></li>
+      <li><a href="https://bubblybelle.com/pages/terms-and-conditions">TERMS</a></li>
+      <li><a href="https://bubblybelle.com/pages/frequently-asked-questions">FAQ</a></li>
+    </ul>
 
-  <p>2019 &copy; bubblybelle.com | All Rights Reserved</p>
-</s>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script type="text/javascript">
-  $(document).ready(function(e) {
-    $('.rev-read-more').click(function(e) {
-      $('.rev-slider').css('height','auto');
-      $('.rev-read-more').hide();
-    });
+    <p>2019 &copy; bubblybelle.com | All Rights Reserved</p>
+  </s>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function (e) {
+      $('.rev-read-more').click(function (e) {
+        $('.rev-slider').css('height', 'auto');
+        $('.rev-read-more').hide();
+      });
 
-    $('#revshow').click(function(e) {
-      $('#userReview').fadeIn();
-      $('#cAnsw').fadeOut();
-      $('#revshow').addClass('active-tab');
-      $('#qshow').removeClass('active-tab');
-    });
+      $('#revshow').click(function (e) {
+        $('#userReview').fadeIn();
+        $('#cAnsw').fadeOut();
+        $('#revshow').addClass('active-tab');
+        $('#qshow').removeClass('active-tab');
+      });
 
-    $('#qshow').click(function(e) {
-      $('#userReview').fadeOut();
-      $('#cAnsw').fadeIn();
-      $('#qshow').addClass('active-tab');
-      $('#revshow').removeClass('active-tab');
-    });
-  })
-</script>
+      $('#qshow').click(function (e) {
+        $('#userReview').fadeOut();
+        $('#cAnsw').fadeIn();
+        $('#qshow').addClass('active-tab');
+        $('#revshow').removeClass('active-tab');
+      });
+    })
+  </script>
 </body>
 </html>

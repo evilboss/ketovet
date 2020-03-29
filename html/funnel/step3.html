@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bubbly Belle - Step 1</title>
+  <title>Bubbly Belle - Step 3</title>
+
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,9 +21,9 @@
   <link
     href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,400italic,700,700italic%7CRoboto+Slab:400,700,300,100'
     rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="https://offers.bubblybelle.com/shared/assets/css/path/dollar_styles6.css?v1">
+  <!-- <link rel="stylesheet" href="/shared/assets/css/path/dollar_styles.css?v3"> -->
+  <link rel="stylesheet" href="https://offers.bubblybelle.com/shared/assets/css/path/dollar_styles6.css?v3">
   <link rel="stylesheet" href="https://offers.bubblybelle.com/shared/assets/css/animate.min.css">
-
 
   <style type="text/css">
     p.full-scentprofile {
@@ -33,12 +34,13 @@
       font-style: italic;
       margin-bottom: 11px;
       color: #7d5953;
+      white-space: pre-wrap;
     }
   </style>
 
 </head>
 
-<body id="step_1" data-step="1" class="store" style="padding-top: 90px;">
+<body id="step_3" data-step="3" class="store" style="padding-top: 90px;">
 <h4
   style="color: #fff; background: #ff4476; margin: 0; padding: 20px; text-align: center; position: fixed; top: 0; left: 0; z-index: 100; right: 0; font-weight: normal;">
   <b>Every $1 = 1 Entry To Win A Custom $20,000 Ring!</b></h4>
@@ -309,13 +311,13 @@
         </div>
         <div class="progress-container clearfix">
           <div class="progress-box progress-shipping">
-            <span class="progress-circle progress-current">1</span>
+            <span class="progress-circle progress-finished"><i class="fa fa-check" aria-hidden="true"></i></span>
           </div>
           <div class="progress-box progress-billing">
-            <span class="progress-circle">2</span>
+            <span class="progress-circle progress-finished"><i class="fa fa-check" aria-hidden="true"></i></span>
           </div>
           <div class="progress-box progress-confirmation">
-            <span class="progress-circle">3</span>
+            <span class="progress-circle progress-current">3</span>
           </div>
         </div>
       </div>
@@ -329,172 +331,135 @@
 <section class="content clearfix">
   <div class="container">
     <div class="row">
-
-      <div id="shippingwarning" class="alert alert-warning animated swing" role="alert"
-           style="text-align:center; font-size:1.8em">You Qualify For <strong>A FREE Ring</strong> and Another Chance to
-        Win a <strong>$20,000 Ring</strong>!
+      <div id="shippingwarning" class="alert alert-success animated rubberBand" role="alert"
+           style="text-align:center; font-size:1.8em; display:none;">You are just (<strong><span
+        id="bombsremaining"></span></strong>) Bath <span id="bombword">Bombs</span> Away from <strong>FREE</strong>
+        Shipping (a <strong>$7.95</strong> value!)
       </div>
+      <div id="noshipping"></div>
 
       <div class="products-all-top text-center col-sm-12">
-        <!-- <span class="products-all-leaf"><img src="https://offers.bubblybelle.com/shared/assets/image/common/leaf-icon.png" class="center-block"></span> -->
-        <h1 class="pick-header header1"><span>Step 1 of 3</span> Pick one of our Bubbly Belle <br> Signature Bath Bombs
-          for <sup>$</sup>1</h1>
-        <!-- <img src="https://offers.bubblybelle.com/shared/assets/image/common/stpat.png" class="center-block"> -->
+        <span class="products-all-leaf"><img src="https://offers.bubblybelle.com/shared/assets/image/common/leaf-icon.png"
+                                             class="center-block"></span>
+        <h1 class="pick-header header3"><span>Final Step</span> You Qualify for 35% OFF<br> All Of Our Bubbly Belle
+          Limited Edition</h1>
       </div>
     </div>
 
-    <img id="loading" src="https://offers.bubblybelle.com/shared/assets/image/modal/miracle-loading.gif"
-         alt="Processing" style="padding:50px 0 300px; margin: 0 auto; display: block;">
-
+    <img id="loading" src="https://offers.bubblybelle.com/shared/assets/image/modal/miracle-loading.gif" alt="Processing"
+         style="padding:50px 0 300px; margin: 0 auto; display: block;">
     <div class="row products-all-container" id="ourHolder" style="display: none;">
 
-      <div id="sleep-bath-bomb" class="products-all-box col-xs-6 col-sm-4" data-product-id="10324">
+
+      <div id="lavender-bath-bomb" class="products-all-box col-xs-6 col-sm-4" style="white-space: nowrap"
+           data-product-id="10305">
         <div class="quick-view" style="display: none;"><i class="fa fa-plus"></i></div>
 
-
-        <!-- <img src="https://offers.bubblybelle.com/shared/assets/image/newstyle_fun/sleep_noring.jpg" alt="Sleep"> -->
-        <img src="https://offers.bubblybelle.com/shared/assets/image/bb-new-photos/sleep_noring.jpg" alt="Sleep">
+        <!-- <img src="/shared/assets/image/newstyle_fun/lav-new-grey.jpg" alt="Lavender"> -->
+        <img src="https://offers.bubblybelle.com/shared/assets/image/bb-new-photos/lav-new-grey.jpg" alt="Lavender">
         <div class="products-all-text">
-          <p class="full-title">Sleep</p>
-          <p class="full-price" data-price="$1.00">
-            $1.00</p>
+          <p class="full-title">Lavender</p>
+          <p class="full-price" data-price="$13.97">
+            $13.97</p>
           <span class="priceslash">19.95</span>
           <div class="qty">
             <p>Qty</p>
-            <input type="number" name="quantity" maxlength="3" value="1" class="sleep-bath-bomb-qty">
+            <input type="number" name="quantity" maxlength="3" value="1" class="lavender-bath-bomb-qty">
           </div>
         </div>
         <div class="products-all-cta full-add-cart green-btn">Select</div>
       </div>
 
-      <div id="massage-bath-bomb" class="products-all-box col-xs-6 col-sm-4" data-product-id="10306">
+      <div id="harmony-bath-bomb" class="products-all-box col-xs-6 col-sm-4" style="white-space: nowrap"
+           data-product-id="10299">
         <div class="quick-view" style="display: none;"><i class="fa fa-plus"></i></div>
 
-
-        <!-- <img src="https://offers.bubblybelle.com/shared/assets/image/newstyle_fun/massage_noring.jpg" alt="Massage"> -->
-        <img src="https://offers.bubblybelle.com/shared/assets/image/bb-new-photos/massage_noring.jpg" alt="Massage">
+        <!-- <img src="/shared/assets/image/newstyle_fun/harmony_noring.jpg" alt="Harmony"> -->
+        <img src="https://offers.bubblybelle.com/shared/assets/image/bb-new-photos/harmony_noring.jpg" alt="Harmony">
         <div class="products-all-text">
-          <p class="full-title">Massage</p>
-          <p class="full-price" data-price="$1.00">
-            $1.00</p>
+          <p class="full-title">Harmony</p>
+          <p class="full-price" data-price="$13.97">
+            $13.97</p>
           <span class="priceslash">19.95</span>
           <div class="qty">
             <p>Qty</p>
-            <input type="number" name="quantity" maxlength="3" value="1" class="massage-bath-bomb-qty">
+            <input type="number" name="quantity" maxlength="3" value="1" class="harmony-bath-bomb-qty">
           </div>
         </div>
         <div class="products-all-cta full-add-cart green-btn">Select</div>
       </div>
 
-      <div id="destress-bath-bomb" class="products-all-box col-xs-6 col-sm-4" data-product-id="10292">
+      <div id="orange-coconut-bath-bomb" class="products-all-box col-xs-6 col-sm-4" style="white-space: nowrap"
+           data-product-id="10313">
         <div class="quick-view" style="display: none;"><i class="fa fa-plus"></i></div>
 
-
-        <!-- <img src="https://offers.bubblybelle.com/shared/assets/image/newstyle_fun/destress_noring.jpg" alt="Destress"> -->
-        <img src="https://offers.bubblybelle.com/shared/assets/image/bb-new-photos/destress_noring.jpg" alt="Destress">
+        <!-- <img src="/shared/assets/image/newstyle_fun/orangecoconut_noring.jpg" alt="Orange Coconut"> -->
+        <img src="https://offers.bubblybelle.com/shared/assets/image/bb-new-photos/orangecoconut_noring.jpg" alt="Orange Coconut">
         <div class="products-all-text">
-          <p class="full-title">Destress</p>
-          <p class="full-price" data-price="$1.00">
-            $1.00</p>
+          <p class="full-title">Orange Coconut</p>
+          <p class="full-price" data-price="$13.97">
+            $13.97</p>
           <span class="priceslash">19.95</span>
           <div class="qty">
             <p>Qty</p>
-            <input type="number" name="quantity" maxlength="3" value="1" class="destress-bath-bomb-qty">
+            <input type="number" name="quantity" maxlength="3" value="1" class="orange-coconut-bath-bomb-qty">
           </div>
         </div>
         <div class="products-all-cta full-add-cart green-btn">Select</div>
       </div>
 
-      <div id="rejuvenation-bath-bomb" class="products-all-box col-xs-6 col-sm-4" data-product-id="10320">
+      <div id="zen-bath-bomb" class="products-all-box col-xs-6 col-sm-4" style="white-space: nowrap"
+           data-product-id="10337">
         <div class="quick-view" style="display: none;"><i class="fa fa-plus"></i></div>
 
-
-        <!-- <img src="https://offers.bubblybelle.com/shared/assets/image/newstyle_fun/rejuv-new-pink.jpg" alt="Rejuvenate"> -->
-        <img src="https://offers.bubblybelle.com/shared/assets/image/bb-new-photos/rejuv-new-pink.jpg" alt="Rejuvenate">
+        <!-- <img src="/shared/assets/image/newstyle_fun/zen_noring.jpg" alt="Zen"> -->
+        <img src="https://offers.bubblybelle.com/shared/assets/image/bb-new-photos/zen_noring.jpg" alt="Zen">
         <div class="products-all-text">
-          <p class="full-title">Rejuvenate</p>
-          <p class="full-price" data-price="$1.00">
-            $1.00</p>
+          <p class="full-title">Zen</p>
+          <p class="full-price" data-price="$13.97">
+            $13.97</p>
           <span class="priceslash">19.95</span>
           <div class="qty">
             <p>Qty</p>
-            <input type="number" name="quantity" maxlength="3" value="1" class="rejuvenation-bath-bomb-qty">
+            <input type="number" name="quantity" maxlength="3" value="1" class="zen-bath-bomb-qty">
           </div>
         </div>
         <div class="products-all-cta full-add-cart green-btn">Select</div>
       </div>
 
-      <div id="bliss-bath-bomb" class="products-all-box col-xs-6 col-sm-4" data-product-id="10281">
+      <div id="serenity-bath-bomb" class="products-all-box col-xs-6 col-sm-4" style="white-space: nowrap"
+           data-product-id="10323">
         <div class="quick-view" style="display: none;"><i class="fa fa-plus"></i></div>
 
-
-        <!-- <img src="https://offers.bubblybelle.com/shared/assets/image/newstyle_fun/bliss_noring.jpg" alt="Bliss"> -->
-        <img src="https://offers.bubblybelle.com/shared/assets/image/bb-new-photos/bliss_noring.jpg" alt="Bliss">
+        <!-- <img src="/shared/assets/image/newstyle_fun/serenity_noring.jpg" alt="Serenity"> -->
+        <img src="https://offers.bubblybelle.com/shared/assets/image/bb-new-photos/serenity_noring.jpg" alt="Serenity">
         <div class="products-all-text">
-          <p class="full-title">Bliss</p>
-          <p class="full-price" data-price="$1.00">
-            $1.00</p>
+          <p class="full-title">Serenity</p>
+          <p class="full-price" data-price="$13.97">
+            $13.97</p>
           <span class="priceslash">19.95</span>
           <div class="qty">
             <p>Qty</p>
-            <input type="number" name="quantity" maxlength="3" value="1" class="bliss-bath-bomb-qty">
+            <input type="number" name="quantity" maxlength="3" value="1" class="serenity-bath-bomb-qty">
           </div>
         </div>
         <div class="products-all-cta full-add-cart green-btn">Select</div>
       </div>
 
-      <div id="balance-bath-bomb" class="products-all-box col-xs-6 col-sm-4" data-product-id="10276">
+      <div id="tranquility-bath-bomb" class="products-all-box col-xs-6 col-sm-4" style="white-space: nowrap"
+           data-product-id="10333">
         <div class="quick-view" style="display: none;"><i class="fa fa-plus"></i></div>
 
-
-        <!-- <img src="https://offers.bubblybelle.com/shared/assets/image/newstyle_fun/balance_noring.jpg" alt="Balance"> -->
-        <img src="https://offers.bubblybelle.com/shared/assets/image/bb-new-photos/balance_noring.jpg" alt="Balance">
+        <!-- <img src="/shared/assets/image/newstyle_fun/tranquility_noring.jpg" alt="Tranquility"> -->
+        <img src="https://offers.bubblybelle.com/shared/assets/image/bb-new-photos/tranquility_noring.jpg" alt="Tranquility">
         <div class="products-all-text">
-          <p class="full-title">Balance</p>
-          <p class="full-price" data-price="$1.00">
-            $1.00</p>
+          <p class="full-title">Tranquility</p>
+          <p class="full-price" data-price="$13.97">
+            $13.97</p>
           <span class="priceslash">19.95</span>
           <div class="qty">
             <p>Qty</p>
-            <input type="number" name="quantity" maxlength="3" value="1" class="balance-bath-bomb-qty">
-          </div>
-        </div>
-        <div class="products-all-cta full-add-cart green-btn">Select</div>
-      </div>
-
-      <div id="mellow-bath-bomb" class="products-all-box col-xs-6 col-sm-4" data-product-id="10308">
-        <div class="quick-view" style="display: none;"><i class="fa fa-plus"></i></div>
-
-
-        <!-- <img src="/shared/assets/image/newstyle_fun/new-mellow-blue.jpg" alt="Mellow"> -->
-        <img src="https://offers.bubblybelle.com/shared/assets/image/bb-new-photos/new-mellow-blue.jpg" alt="Mellow">
-        <div class="products-all-text">
-          <p class="full-title">Mellow</p>
-          <p class="full-price" data-price="$1.00">
-            $1.00</p>
-          <span class="priceslash">19.95</span>
-          <div class="qty">
-            <p>Qty</p>
-            <input type="number" name="quantity" maxlength="3" value="1" class="mellow-bath-bomb-qty">
-          </div>
-        </div>
-        <div class="products-all-cta full-add-cart green-btn">Select</div>
-      </div>
-
-      <div id="heal-bath-bomb" class="products-all-box col-xs-6 col-sm-4" data-product-id="10300">
-        <div class="quick-view" style="display: none;"><i class="fa fa-plus"></i></div>
-
-
-        <!-- <img src="/shared/assets/image/newstyle_fun/heal_noring.jpg" alt="Heal"> -->
-        <img src="https://offers.bubblybelle.com/shared/assets/image/bb-new-photos/heal_noring.jpg" alt="Heal">
-        <div class="products-all-text">
-          <p class="full-title">Heal</p>
-          <p class="full-price" data-price="$1.00">
-            $1.00</p>
-          <span class="priceslash">19.95</span>
-          <div class="qty">
-            <p>Qty</p>
-            <input type="number" name="quantity" maxlength="3" value="1" class="heal-bath-bomb-qty">
+            <input type="number" name="quantity" maxlength="3" value="1" class="tranquility-bath-bomb-qty">
           </div>
         </div>
         <div class="products-all-cta full-add-cart green-btn">Select</div>
@@ -504,23 +469,16 @@
     </div>
     <div class="row">
       <div class="col-sm-12 text-center">
-        <button type="button" nextstep='step2.html' class="continue-btn nextStepButton" disabled>
+
+        <button type="submit" nextstep='splash.html' class="continue-btn nextStepButton" disabled>
           Continue <i class="fa fa-arrow-right"></i>
         </button>
       </div>
     </div>
+  </div>
 </section>
 
-
-<!--MODAL-->
-
-
-<div class="container footer-container">
-  <div class="row">
-  </div>
-</div>
-
-<input type='hidden' id='step_price' value='1.00'/>
+<input type='hidden' id='step_price' value='13.97'/>
 
 <footer>
   <div class="container footer-container">
@@ -670,13 +628,11 @@
 <script src="https://offers.bubblybelle.com/shared/assets/js/steps.js?v12"></script>
 
 <script>
-  // added 11.5.19
-  if (typeof fbq != 'undefined') {
-    fbq('track', 'ViewContent', {
-      content_name: 'Funnel Index Page'
-    });
-  }
+  // redirect if no bomb selected on page 1
+  if (!checkMinimumSelections())
+    window.location.href = 'index.php';
 </script>
+
 
 </body>
 </html>

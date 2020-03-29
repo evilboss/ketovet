@@ -1,0 +1,1023 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bubbly Belle - Checkout</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="apple-touch-icon" sizes="180x180" href="/shared/assets/favico/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/shared/assets/favico/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/shared/assets/favico/favicon-16x16.png">
+  <link rel="manifest" href="/shared/assets/favico/site.webmanifest">
+  <link rel="mask-icon" href="/shared/assets/favico/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://offers.bubblybelle.com/shared/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://offers.bubblybelle.com/shared/assets/css/iziToast.css">
+  <link
+    href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,400italic,700,700italic%7CRoboto+Slab:400,700,300,100'
+    rel='stylesheet' type='text/css'>
+  <link href="https://offers.bubblybelle.com/shared/assets/css/checkout/checkout.css?v=7" rel="stylesheet">
+  <link href="https://offers.bubblybelle.com/shared/assets/css/card-js.min.css" rel="stylesheet">
+
+  <style type="text/css">
+    label.error {
+      padding-left: 0;
+      color: #f62424;
+      font-weight: normal;
+      font-size: 12px;
+    }
+
+    #error_message {
+      font-size: 25px
+    }
+
+    .pretty-border, .pretty-border2 {
+      border: 1px solid #ddd;
+      margin-bottom: 20px;
+      padding: 20px;
+      background: #f9f9f9;
+      border-radius: 8px;
+    }
+
+    .pretty-border2 {
+      background: #f9f6ff
+    }
+
+    .payment-header {
+      font-size: 18px;
+      margin: 0 0 20px;
+      color: #78463e
+    }
+
+    .field-box {
+      min-height: 52px;
+      height: auto;
+    }
+
+    @media (max-width: 768px) {
+      .pretty-border, .pretty-border2 {
+        border-radius: unset
+      }
+    }
+
+    @media (min-width: 768px) {
+      .logo {
+        max-height: 70px
+      }
+    }
+
+    @media (min-width: 992px) {
+      .container {
+        padding: 0;
+      }
+    }
+
+  </style>
+</head>
+
+<body class="store" data-step="5">
+<script>
+  var googleclick = false;
+
+</script>
+
+
+<script>
+  var date = new Date();
+  date.setTime(date.getTime() + (7 * 24 * 60 * 60 * 1000));
+  expires = "; expires=" + date.toUTCString();
+  document.cookie = 'fbcmp' + "=" + '1711397459085252' + ';' + expires + "; path=/";
+</script>
+
+<!-- Facebook Pixel Code -->
+<script>
+  !function (f, b, e, v, n, t, s) {
+    if (f.fbq) return;
+    n = f.fbq = function () {
+      n.callMethod ?
+        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+    };
+    if (!f._fbq) f._fbq = n;
+    n.push = n;
+    n.loaded = !0;
+    n.version = '2.0';
+    n.queue = [];
+    t = b.createElement(e);
+    t.async = !0;
+    t.src = v;
+    s = b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t, s)
+  }(window, document, 'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1711397459085252', {
+    em: "test@test.com",
+    fn: "test",
+    ln: "test",
+    ph: "1232131231",
+    country: "us",
+    ct: "test",
+    st: "al",
+    zp: "35005	",
+  });
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+               src="https://www.facebook.com/tr?id=1711397459085252&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-47105712-40"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+
+  gtag('js', new Date());
+
+  gtag('config', 'UA-47105712-40'); // analytics initialization
+  gtag('config', 'AW-709535125'); // adwords initialization via gtag - AB - added 9.16.19
+
+
+</script>
+
+<!-- Pinterest Tag -->
+<script>
+  !function (e) {
+    if (!window.pintrk) {
+      window.pintrk = function () {
+        window.pintrk.queue.push(Array.prototype.slice.call(arguments))
+      };
+      var
+        n = window.pintrk;
+      n.queue = [], n.version = "3.0";
+      var
+        t = document.createElement("script");
+      t.async = !0, t.src = e;
+      var
+        r = document.getElementsByTagName("script")[0];
+      r.parentNode.insertBefore(t, r)
+    }
+  }("https://s.pinimg.com/ct/core.js");
+  //2614110333809
+  // 2613589011768 - other account disabled 1.3.20
+  pintrk('load', '2614110333809', {em: 'test@test.com'});
+  pintrk('page');
+</script>
+<noscript>
+  <img height="1" width="1" style="display:none;" alt=""
+       src="https://ct.pinterest.com/v3/?event=init&tid=2614110333809&pd[em]=b642b4217b34b1e8d3bd915fc65c4452&noscript=1"/>
+</noscript>
+<!-- end Pinterest Tag -->
+
+
+<!-- outbrain -->
+<script data-obct type="text/javascript">
+  /** DO NOT MODIFY THIS CODE**/
+  !function (_window, _document) {
+    var OB_ADV_ID = '00f9e5e0d969af8ed98a1cc949fb177534';
+    if (_window.obApi) {
+      var toArray = function (object) {
+        return Object.prototype.toString.call(object) === '[object Array]' ? object : [object];
+      };
+      _window.obApi.marketerId = toArray(_window.obApi.marketerId).concat(toArray(OB_ADV_ID));
+      return;
+    }
+    var api = _window.obApi = function () {
+      api.dispatch ? api.dispatch.apply(api, arguments) : api.queue.push(arguments);
+    };
+    api.version = '1.1';
+    api.loaded = true;
+    api.marketerId = OB_ADV_ID;
+    api.queue = [];
+    var tag = _document.createElement('script');
+    tag.async = true;
+    tag.src = '//amplify.outbrain.com/cp/obtp.js';
+    tag.type = 'text/javascript';
+    var script = _document.getElementsByTagName('script')[0];
+    script.parentNode.insertBefore(tag, script);
+  }(window, document);
+  obApi('track', 'PAGE_VIEW');
+</script>
+<!-- end outbrain -->
+
+
+<!-- Taboola Pixel Code -->
+<script type='text/javascript'>
+  window._tfa = window._tfa || [];
+  window._tfa.push({notify: 'event', name: 'page_view', id: 1225269});
+  !function (t, f, a, x) {
+    if (!document.getElementById(x)) {
+      t.async = 1;
+      t.src = a;
+      t.id = x;
+      f.parentNode.insertBefore(t, f);
+    }
+  }(document.createElement('script'),
+    document.getElementsByTagName('script')[0],
+    '//cdn.taboola.com/libtrc/unip/1225269/tfa.js',
+    'tb_tfa_script');
+</script>
+<noscript>
+  <img src='//trc.taboola.com/1225269/log/3/unip?en=page_view'
+       width='0' height='0' style='display:none'/>
+</noscript>
+<!-- End of Taboola Pixel Code -->
+
+
+<!-- Snap Pixel Code -->
+<script type='text/javascript'>
+  (function (e, t, n) {
+    if (e.snaptr) return;
+    var a = e.snaptr = function () {
+      a.handleRequest ? a.handleRequest.apply(a, arguments) : a.queue.push(arguments)
+    };
+    a.queue = [];
+    var s = 'script';
+    r = t.createElement(s);
+    r.async = !0;
+    r.src = n;
+    var u = t.getElementsByTagName(s)[0];
+    u.parentNode.insertBefore(r, u);
+  })(window, document,
+    'https://sc-static.net/scevent.min.js');
+
+  snaptr('init', '46cdd58d-67b4-4607-ac7f-64d8c5009ae6'
+    , {'user_email': 'test@test.com'});
+
+  snaptr('track', 'PAGE_VIEW');
+</script>
+<!-- End Snap Pixel Code -->
+
+
+<!-- Pubdream Analytics -->
+<script async src="//a.pubdream.com/analytics2.js"></script>
+<script>
+  window.pubdream = window.pubdream || [];
+
+  function pdpush() {
+    window.pubdream.push(arguments);
+  }
+
+  pdpush('pageview');
+</script>
+
+<!-- DFO detect coreg prefill params and stuff into 7 day cookie -->
+<script>
+  try {
+    var params = new URLSearchParams(location.search);
+
+    var dict = {};
+
+    // get all supported prefill variables here
+    // load into cookie that will be read by the shipping page.
+    // if firstname not found, the rest is ignored
+    dict.firstname = params.get('firstname');
+    if (dict.firstname) {
+      dict.lastname = params.get('lastname');
+      dict.email = params.get('email');
+      dict.phone = params.get('phone');
+      dict.address = params.get('address');
+      dict.city = params.get('city');
+      dict.state = params.get('state');
+      dict.zip = params.get('zip');
+
+      var date = new Date();
+      date.setTime(date.getTime() + (7 * 24 * 60 * 60 * 1000));
+      expires = "; expires=" + date.toUTCString();
+      document.cookie = 'coreg' + "=" + btoa(JSON.stringify(dict)) + ';' + expires + "; path=/";
+    }
+
+  } catch (e) {
+  }
+</script>
+
+<script>
+  // ticktock
+  (function () {
+    var ta = document.createElement('script');
+    ta.type = 'text/javascript';
+    ta.async = true;
+    ta.src = document.location.protocol + '//' + 'static.bytedance.com/pixel/sdk.js?sdkid=BOH0PVLEUOQ9QM0COE30';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(ta, s);
+  })();
+</script>
+
+<!-- DO NOT MODIFY -->
+<!-- Quora Pixel Code (JS Helper) -->
+<script>
+  !function (q, e, v, n, t, s) {
+    if (q.qp) return;
+    n = q.qp = function () {
+      n.qp ? n.qp.apply(n, arguments) : n.queue.push(arguments);
+    };
+    n.queue = [];
+    t = document.createElement(e);
+    t.async = !0;
+    t.src = v;
+    s = document.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t, s);
+  }(window, 'script', 'https://a.quora.com/qevents.js');
+  qp('init', '05c70b24a10d4f24a51553980545d868');
+  qp('track', 'ViewContent');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+               src="https://q.quora.com/_/ad/05c70b24a10d4f24a51553980545d868/pixel?tag=ViewContent&noscript=1"/>
+</noscript>
+<!-- End of Quora Pixel Code -->
+
+<!-- mikey likes it -->
+<script src="https://cdn.attn.tv/bubblybelle/dtag.js"></script>
+
+<!--
+	shippingAlt = 8.96-->
+<header>
+  <div class="container logo-container">
+    <div class="row">
+      <div class="col-sm-12">
+        <img src="logo.jpg" class="img-responsive logo">
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="content clearfix container">
+  <div class="row">
+    <h1 class="text-center">Last Step! How would<br> you like to pay?</h1>
+    <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3" style="padding:0">
+
+      <div class="countdown">
+        <div id="clockdiv"
+             style="display:block;background:#fcf8e3;padding:10px 20px;border:1px solid #faebcc;font-size:16px;color:#8a6d3b;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 4px; margin:20px 0px; text-align:center">
+          Your order is reserved for <span class="minutes" style="font-weight: bold;letter-spacing: 1px;"></span>:<span
+          class="seconds" style="font-weight: bold;letter-spacing: 1px;">00</span> minutes!
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 checkout-form-container pretty-border2">
+
+      <h3 class='payment-header'>Payment</h3>
+      <form id="checkout-form">
+
+        <input type="hidden" name="token" id="form-token" value="">
+        <input type="hidden" name="errmsg" id="errmsg" value="">
+        <input type="hidden" name="checkout_sub" id="checkout_sub" value="1">
+
+        <div class="checkout-form-wrapper">
+          <div class="form-group field-box">
+            <input id="ccNumber" type="text" class="form-control numeric cc-number" autocomplete="off" name="ccNumber"
+                   placeholder="Credit Card Number" maxlength="19" required>
+          </div>
+          <div class="row">
+            <div class="col-sm-6 field-box">
+              <select id="ccExpiryMonth" class="form-control" name="ccExpiryMonth" required>
+                <option selected="" value="">Month</option>
+                <option value="01">(01) January</option>
+                <option value="02">(02) February</option>
+                <option value="03">(03) March</option>
+                <option value="04">(04) April</option>
+                <option value="05">(05) May</option>
+                <option value="06">(06) June</option>
+                <option value="07">(07) July</option>
+                <option value="08">(08) August</option>
+                <option value="09">(09) September</option>
+                <option value="10">(10) October</option>
+                <option value="11">(11) November</option>
+                <option value="12">(12) December</option>
+              </select>
+            </div>
+            <div class="col-sm-6 field-box">
+              <select id="ccExpiryYear" class="form-control" name="ccExpiryYear" required>
+                <option value="">Year</option>
+                <option value='20'>2020</option>
+                <option value='21'>2021</option>
+                <option value='22'>2022</option>
+                <option value='23'>2023</option>
+                <option value='24'>2024</option>
+                <option value='25'>2025</option>
+                <option value='26'>2026</option>
+                <option value='27'>2027</option>
+                <option value='28'>2028</option>
+                <option value='29'>2029</option>
+                <option value='30'>2030</option>
+                <option value='31'>2031</option>
+                <option value='32'>2032</option>
+                <option value='33'>2033</option>
+                <option value='34'>2034</option>
+                <option value='35'>2035</option>
+                <option value='36'>2036</option>
+                <option value='37'>2037</option>
+                <option value='38'>2038</option>
+                <option value='39'>2039</option>
+                <option value='40'>2040</option>
+                <option value='41'>2041</option>
+                <option value='42'>2042</option>
+                <option value='43'>2043</option>
+                <option value='44'>2044</option>
+                <option value='45'>2045</option>
+                <option value='46'>2046</option>
+                <option value='47'>2047</option>
+                <option value='48'>2048</option>
+                <option value='49'>2049</option>
+                <option value='50'>2050</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <div class="col-sm-6 field-box">
+              <input id="ccCode" type="text" class="form-control numeric" name="ccCode"
+                     placeholder="3-4 Digit Security Code" required>
+              <a href="#" class="" data-toggle="modal" data-target="#cvv_modal">what's
+                this?</a>
+            </div>
+          </div>
+
+          <div class="form-group billing-check-box checkbox">
+            <label>
+              <input id="billing" class="activate-billing" type="checkbox" name="billing">
+              I have a different billing address
+            </label>
+          </div>
+
+          <div class="billingwrap row">
+
+            <div class="form-group field-box col-sm-6">
+              <input id="billingAddress" type="text" class="form-control" autocomplete="off" name="billingAddress"
+                     placeholder="Street Address" maxlength="32">
+            </div>
+
+            <div class="col-sm-6 field-box">
+              <input id="billingCity" type="text" class="form-control" autocomplete="off" name="billingCity"
+                     placeholder="City" maxlength="32">
+            </div>
+
+
+            <div class="col-sm-6 state field-box">
+              <select id="billingStatelist" class="form-control" name="billingStatelist">
+                <option value="">Select Your State/Province</option>
+                <option value="AL">Alabama</option>
+                <option value="AK">Alaska</option>
+                <option value="AZ">Arizona</option>
+                <option value="AS">American Samoa</option>
+                <option value="AR">Arkansas</option>
+                <option value="CA">California</option>
+                <option value="CO">Colorado</option>
+                <option value="CT">Connecticut</option>
+                <option value="DE">Delaware</option>
+                <option value="DC">District of Columbia</option>
+                <option value="FL">Florida</option>
+                <option value="GA">Georgia</option>
+                <!-- <option value="GU">Guam</option> -->
+                <option value="HI">Hawaii</option>
+                <option value="ID">Idaho</option>
+                <option value="IL">Illinois</option>
+                <option value="IN">Indiana</option>
+                <option value="IA">Iowa</option>
+                <option value="KS">Kansas</option>
+                <option value="KY">Kentucky</option>
+                <option value="LA">Louisiana</option>
+                <option value="ME">Maine</option>
+                <option value="MD">Maryland</option>
+                <option value="MA">Massachusetts</option>
+                <option value="MI">Michigan</option>
+                <option value="MN">Minnesota</option>
+                <option value="MS">Mississippi</option>
+                <option value="MO">Missouri</option>
+                <option value="MT">Montana</option>
+                <option value="NE">Nebraska</option>
+                <option value="NV">Nevada</option>
+                <option value="NH">New Hampshire</option>
+                <option value="NJ">New Jersey</option>
+                <option value="NM">New Mexico</option>
+                <option value="NY">New York</option>
+                <option value="NC">North Carolina</option>
+                <option value="ND">North Dakota</option>
+                <!-- <option value="MP">Northern Mariana Islands</option> -->
+                <option value="OH">Ohio</option>
+                <option value="OK">Oklahoma</option>
+                <option value="OR">Oregon</option>
+                <option value="PA">Pennsylvania</option>
+                <!-- <option value="PR">Puerto Rico</option> -->
+                <option value="RI">Rhode Island</option>
+                <option value="SC">South Carolina</option>
+                <option value="SD">South Dakota</option>
+                <option value="TN">Tennessee</option>
+                <option value="TX">Texas</option>
+                <!-- <option value="UM">United States Minor Outlying Islands</option> -->
+                <option value="UT">Utah</option>
+                <option value="VT">Vermont</option>
+                <option value="VA">Virginia</option>
+                <!-- <option value="VI">Virgin Islands, U.S.</option> -->
+                <option value="WA">Washington</option>
+                <option value="WV">West Virginia</option>
+                <option value="WI">Wisconsin</option>
+                <option value="WY">Wyoming</option>
+              </select>
+            </div>
+
+
+            <div class="col-sm-6 field-box">
+              <input id="billingZip" type="text" class="form-control numeric" name="billingZip" placeholder="Zip Code">
+            </div>
+          </div>
+
+          <input type="hidden" id="billingCountrylist" name="billingCountrylist" value="US"/>
+
+
+        </div>
+
+        <div class="subnsave">
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="subRadios" id="exampleRadios1" value="true" checked>
+            <label class="form-check-label" for="exampleRadios1">
+              Subscribe & Save 20%
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="subRadios" id="exampleRadios2" value="false">
+            <label class="form-check-label" for="exampleRadios2">
+              One Time Purchase
+            </label>
+          </div>
+        </div>
+
+
+        <div class="form-group">
+          <div class="submit-footer">
+
+
+            <input class="btn btn-success green-btn" type="submit" nextstep='subscription.php' id="checkout"
+                   value="Claim My Free Ring">
+          </div>
+        </div>
+        <div class="support"></div>
+        <div class="form-group row">
+          <div class="col-sm-12">
+            <div class="security-badges">
+              <!-- <img src="/shared/assets/image/common/honestonline.png" alt="HONESTe Seal" border="0"> -->
+              <img class="half" src="https://offers.bubblybelle.com/shared/assets/image/common/norton.png"
+                   alt="Norton Seal" border="0">
+              <img class="half" src="https://offers.bubblybelle.com/shared/assets/image/common/mcafee.png"
+                   alt="McAfee Seal" border="0">
+              <img class="half" src="https://offers.bubblybelle.com/shared/assets/image/common/paypal.png"
+                   alt="Paypal Seal" border="0">
+              <img class="half" src="https://offers.bubblybelle.com/shared/assets/image/common/bbb.png" alt="BBB Seal"
+                   border="0">
+
+              <!-- <img class="comodosecure" src="https://www.instantssl.com/ssl-certificate-images/support/comodo_secure-100x85.gif" alt=""> -->
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group text-center">
+          <p>
+            <a href="shipping.php">Edit shipping information</a>
+          </p>
+          <p>
+            Your credit card will be authorized and charged for the amount shown
+          </p>
+        </div>
+
+
+      </form>
+    </div> <!-- END .checkout-form-container -->
+
+
+    <div id="bottom-receipt-area">
+
+
+      <div id="top-receipt-area" class="pretty-border col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+
+        <div class="checkout-summary">
+          <h3 class='payment-header'>Review Your Order</h3>
+
+          <table id="subcost" class="items">
+            <tr>
+              <td>
+
+                <!-- <img src="/shared/assets/image/newstyle_fun/new-mellow-blue.jpg" alt="Mellow"> Mellow -->
+                <img src="https://offers.bubblybelle.com/shared/assets/image/bb-new-photos/new-mellow-blue.jpg"
+                     alt="Mellow"> Mellow
+              </td>
+              <td class="text-align-right cost">$1.00<span class="prod-qty">x1</span></td>
+            </tr>
+            <tr>
+              <td>
+
+                <!-- <img src="/shared/assets/image/newstyle_fun/bliss_noring.jpg" alt="Bliss"> Bliss -->
+                <img src="https://offers.bubblybelle.com/shared/assets/image/bb-new-photos/bliss_noring.jpg"
+                     alt="Bliss"> Bliss
+              </td>
+              <td class="text-align-right cost">$13.97<span class="prod-qty">x1</span></td>
+            </tr>
+            <tr>
+              <td>
+
+                <!-- <img src="/shared/assets/image/newstyle_fun/serenity_noring.jpg" alt="Serenity"> Serenity -->
+                <img src="https://offers.bubblybelle.com/shared/assets/image/bb-new-photos/serenity_noring.jpg"
+                     alt="Serenity"> Serenity
+              </td>
+              <td class="text-align-right cost">$13.97<span class="prod-qty">x1</span></td>
+            </tr>
+            <tr>
+              <td>
+
+                <!-- <img src="/shared/assets/image/newstyle_fun/bonus-ring.png" alt="Bonus Ring"> Bonus Ring -->
+                <img src="https://offers.bubblybelle.com/shared/assets/image/bb-new-photos/bonus-ring.png"
+                     alt="Bonus Ring"> Bonus Ring
+              </td>
+              <td class="text-align-right cost">$0.00<span class="prod-qty">x1</span></td>
+            </tr>
+
+            <tr class="other-charges">
+              <td colspan="2">
+                <table>
+                  <tr>
+                    <td>Subtotal</td>
+                    <td id="subtotal" class="text-align-right">
+                      $28.94
+                    </td>
+                  </tr>
+                  <tr class="discountElm" hidden>
+                    <td class="discount_name"></td>
+                    <td class="discount_price text-align-right"></td>
+                  </tr>
+                  <tr>
+                    <td>Shipping</td>
+                    <td class="shipping_total text-align-right">
+                      $0.00
+                    </td>
+
+                  </tr>
+                  <tr>
+                    <td>Tax</td>
+                    <td id="tax" class="text-align-right">
+                      $2.89
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr class="totals">
+              <td colspan="2">
+                <table>
+                  <tr>
+                    <td><strong>Total</strong></td>
+                    <td class="text-align-right">
+                      <strong id="total" class="total_price">$31.83</strong>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+
+          <table id="onetimecost" class="items" style="display:none;">
+            <tr>
+              <td>
+
+                <!-- <img src="/shared/assets/image/newstyle_fun/new-mellow-blue.jpg" alt="Mellow"> Mellow -->
+                <img src="https://offers.bubblybelle.com/shared/assets/image/bb-new-photos/new-mellow-blue.jpg"
+                     alt="Mellow"> Mellow
+              </td>
+              <td class="text-align-right cost">$1.00 <span class="prod-qty">x1</span></td>
+            </tr>
+            <tr>
+              <td>
+
+                <!-- <img src="/shared/assets/image/newstyle_fun/bliss_noring.jpg" alt="Bliss"> Bliss -->
+                <img src="https://offers.bubblybelle.com/shared/assets/image/bb-new-photos/bliss_noring.jpg"
+                     alt="Bliss"> Bliss
+              </td>
+              <td class="text-align-right cost">$16.76 <span class="prod-qty">x1</span></td>
+            </tr>
+            <tr>
+              <td>
+
+                <!-- <img src="/shared/assets/image/newstyle_fun/serenity_noring.jpg" alt="Serenity"> Serenity -->
+                <img src="https://offers.bubblybelle.com/shared/assets/image/bb-new-photos/serenity_noring.jpg"
+                     alt="Serenity"> Serenity
+              </td>
+              <td class="text-align-right cost">$16.76 <span class="prod-qty">x1</span></td>
+            </tr>
+            <tr>
+              <td>
+
+                <!-- <img src="/shared/assets/image/newstyle_fun/bonus-ring.png" alt="Bonus Ring"> Bonus Ring -->
+                <img src="https://offers.bubblybelle.com/shared/assets/image/bb-new-photos/bonus-ring.png"
+                     alt="Bonus Ring"> Bonus Ring
+              </td>
+              <td class="text-align-right cost">$0.00 <span class="prod-qty">x1</span></td>
+            </tr>
+
+            <tr class="other-charges">
+              <td colspan="2">
+                <table>
+                  <tr>
+                    <td>Subtotal</td>
+                    <td id="subtotal" class="text-align-right">
+                      $34.52
+                    </td>
+                  </tr>
+                  <tr class="discountElm" hidden>
+                    <td class="discount_name"></td>
+                    <td class="discount_price text-align-right"></td>
+                  </tr>
+                  <tr>
+                    <td>Shipping</td>
+                    <td class="shipping_total text-align-right">
+                      $0.00
+                    </td>
+
+                  </tr>
+                  <tr>
+                    <td>Tax</td>
+                    <td id="tax" class="text-align-right">
+                      $3.45
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr class="totals">
+              <td colspan="2">
+                <table>
+                  <tr>
+                    <td><strong>Total</strong></td>
+                    <td class="text-align-right">
+                      <strong id="total" class="total_price">$37.97</strong>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+
+
+          <input class="btn btn-success green-btn" type="button" id="second-checkout" value="Claim My Free Ring">
+        </div> <!-- END .checkout-summary -->
+
+      </div>
+
+
+    </div>
+
+  </div> <!-- END .row -->
+  <!-- <div class="support2"></div>  -->
+
+  </div> <!-- END .container -->
+</section>
+
+
+<footer>
+  <div class="container footer-container">
+    <div class="row">
+      <div class="col-sm-12">
+        <!-- <p style='font-size:1.1em; font-weight:bold; margin-top:40px;'>Need Help? 877-241-6269<br />
+        Open Mon-Fri 9:00am - 5:00pm (EST)</p> -->
+        <br/>
+        <p>Copyright &copy; 2020 Bubbly Belle<sup>®</sup>. All rights reserved.</p>
+        <p><a href="https://bubblybelle.com/pages/terms-and-conditions" target="_blank">Terms &amp; Conditions</a> | <a
+          href="https://bubblybelle.com/pages/privacy-policy" target="_blank">Privacy Policy</a> | <a
+          href="https://bubblybelle.com/pages/bubbly-bonanza-sweepstakes" target="_blank">Sweepstakes Rules</a></p>
+
+        <p>DISCLAIMER: None of the health topics presented on Bubbly Belle have been evaluated or approved by the FDA.
+          They should not replace personal judgment nor medical treatment when indicated, nor are they intended to
+          diagnose, treat, cure, or prevent any disease. Always talk to your naturopathic physician about the use of
+          these or any other complimentary modalities. *This statement has not been evaluated by the FDA. This product
+          is not intended to diagnose, treat, cure, or prevent any disease.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<div class="leaves-footer-bg"></div>
+
+<div id="cvv_modal" class="modal fade modeless" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+          aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Where can I find my security code?</h4>
+      </div>
+      <div class="modal-body">
+        <p>CVV Security is a three digit number located on the back of any Visa or MasterCard on the right side of the
+          signature strip or on the front of an American Express card.</p>
+        <img src="/shared/assets/image/modal/cvv-details.jpg" alt="CVV Details">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="processing_modal" class="modal fade modeless" role="dialog" aria-labelledby="mySmallModalLabel"
+     aria-hidden="true" data-backdrop="static" data-keyboard="false">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Just one moment... we are processing your order</h4>
+      </div>
+      <div class="modal-body">
+        <img src="https://offers.bubblybelle.com/shared/assets/image/modal/miracle-loading.gif" alt="Processing">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="processing_basic_modal" class="modal fade modeless" role="dialog" aria-labelledby="mySmallModalLabel"
+     aria-hidden="true" data-backdrop="static" data-keyboard="false">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Just one moment...</h4>
+      </div>
+      <div class="modal-body">
+        <img src="https://offers.bubblybelle.com/shared/assets/image/modal/miracle-loading.gif" alt="Processing">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="error_modal" class="modal fade modeless" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true"
+     data-backdrop="static" data-keyboard="false">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+          aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Oops! There was an error with your information</h4>
+      </div>
+      <div class="modal-body">
+        <h4 id="error_message" style='text-align:center'></h4>
+        <div id="error_body"></div>
+        <br/><br/>
+        <button type="button" class="btn btn-default" data-dismiss="modal" aria-label="Close"
+                style="display: block; margin: 0 auto; width: 150px;">
+          Ok
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="error_modal_addy" class="modal fade modeless" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel"
+     aria-hidden="true" data-backdrop="static" data-keyboard="false">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+          aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Please double-check your address!</h4>
+      </div>
+      <div class="modal-body">
+        <h4 id="addy_error_message" style='text-align:center; font-size:25px'></h4>
+        <div id="addy_error_body"></div>
+        <br/><br/>
+        <button type="button" class="btn btn-default" data-dismiss="modal" aria-label="Close"
+                style="display: block; margin: 0 auto; width: 150px;">
+          Ok
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+<script src="https://offers.bubblybelle.com/shared/assets/js/js.cookie-2.1.4.min.js"></script>
+<script src="https://offers.bubblybelle.com/shared/assets/js/jquery.validate.min.js"></script>
+<script src="https://offers.bubblybelle.com/shared/assets/js/additional-methods.min.js"></script>
+<script src="https://offers.bubblybelle.com/shared/assets/js/iziToast.js"></script>
+
+<script>
+  // used for steps pages - do not remove
+  var gStep = $('body').data('step');
+</script>
+<script type="text/javascript">
+
+  if (Cookies.get('Order_countdown')) {
+    var deadline = Cookies.get('Order_countdown');
+  } else {
+    var timeInMinutes = 15;
+    var currentTime = Date.parse(new Date());
+    var deadline = new Date(currentTime + timeInMinutes * 60 * 1000);
+    Cookies.set('Order_countdown', deadline, {expires: .01});
+  }
+
+  function getTimeRemaining(endtime) {
+    var t = Date.parse(endtime) - Date.parse(new Date());
+    var seconds = Math.floor((t / 1000) % 60);
+    var minutes = Math.floor((t / 1000 / 60) % 60);
+    var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+    return {
+      'total': t,
+      'minutes': minutes,
+      'seconds': seconds
+    };
+  }
+
+  function initializeClock(id, endtime) {
+    var clock = document.getElementById(id);
+    var minutesSpan = clock.querySelector('.minutes');
+    var secondsSpan = clock.querySelector('.seconds');
+
+    function updateClock() {
+      var t = getTimeRemaining(endtime);
+      minutesSpan.innerHTML = t.minutes;
+      secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+      if (t.total <= 0) {
+        clearInterval(timeinterval);
+        clock.innerHTML = "Order reservation ended.";
+      }
+    }
+
+    updateClock(); // run function once at first to avoid delay
+    var timeinterval = setInterval(updateClock, 1000);
+  }
+
+  initializeClock('clockdiv', deadline);
+
+</script>
+<script src="https://offers.bubblybelle.com/shared/assets/js/card-js.min.js"></script>
+<script>
+
+  $("input[name='subRadios']").click(function () {
+    $('#checkout_sub').val(this.value);
+    if (this.value == "false") {
+      $('#subcost').hide();
+      $('#onetimecost').show();
+    } else {
+      $('#subcost').show();
+      $('#onetimecost').hide();
+    }
+  });
+
+
+  var bump = false;
+  var prepaidnosub = false;
+
+
+  $('#billing').on('click', function () {
+    $('.billingwrap').toggle();
+  });
+
+  $("#checkout-form").validate({
+    rules: {
+      ccNumber: {
+        required: true,
+        minlength: 10
+      },
+      ccCode: {
+        required: true,
+      },
+    },
+    messages: {
+      ccNumber: "Please enter a valid credit card number",
+      ccCode: "Please enter a valid security code",
+      ccExpiryMonth: "Please select the month",
+      ccExpiryYear: "Please select the year"
+    },
+    submitHandler: function (form) {
+      $('#processing_modal').modal('show');
+
+      processCC();
+
+      return false;
+    }
+  });
+
+  $('#second-checkout').on('click', function () {
+    $('#checkout-form').submit();
+  });
+
+  // added 11.5.19
+  if (typeof fbq != 'undefined') {
+    fbq('track', 'AddPaymentInfo');
+  }
+
+
+  // used by processing script
+  var session_id = 'vcrr492s8tc5hinqachcocute7';
+</script>
+
+<script src="https://offers.bubblybelle.com/shared/assets/js/processing.js?v32"></script>
+
+
+</body>
+</html>
